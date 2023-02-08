@@ -5,7 +5,7 @@ pipeline
 			label 
 			{
 				label"built-in"
-				customWorkspace"/mnt/build-tool"
+				customWorkspace"/mnt/project"
 			}
 		
 		}
@@ -17,7 +17,7 @@ pipeline
 					steps 
 					{
 						
-						sh "clean install"
+						sh "mvn clean install"
 					}
 				
 		
