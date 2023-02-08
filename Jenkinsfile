@@ -17,7 +17,7 @@ pipeline
 					steps 
 					{
 						
-					 cp -r /mnt/project/gameoflife-web/target/gameoflife.war /mnt/web-server/apache-tomcat-9.0.71/webapps
+					 sh "cp -r /mnt/project/gameoflife-web/target/gameoflife.war /mnt/web-server/apache-tomcat-9.0.71/webapps"
 					}
 				
 		
