@@ -16,8 +16,8 @@ pipeline
 				{
 					steps 
 					{
-						sh "rm -rf bulid-tool"
-						sh "mvn install"
+						
+						sh "clean install"
 					}
 				
 		
